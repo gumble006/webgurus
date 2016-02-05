@@ -1,0 +1,320 @@
+/***************
+Colors
+*****************/
+
+h1, h2                {color: black;}
+
+nav a, nav a:visited  {color: rgb(100,100,100);}
+
+nav a:hover           {color: black;
+                       border-bottom: 4px solid darkorange}
+
+header                {background: white;
+                       border-color: darkorange;}
+
+
+#coverpic h1          {color: darkorange;
+                      text-shadow: 2px 1px 2px black;}
+
+#coverpic             {background-color: white;
+                       border-bottom: 3px solid darkorange;}
+
+
+#intro h1             {color: rgb(100,100,100);}
+
+#workflow-bd          {border-bottom: 3px solid darkorange;
+                       /*border-top: 2px solid darkorange;*/}
+
+#workflow             {background-color: lightgray;
+                      color: white;}
+
+#workflow a           {background-color: black;
+                       color: white;
+                       border: 1px solid black;}
+
+#workflow a:hover     {border: 1px solid darkorange;}                       
+
+#clientquote h3        {color: rgb(100,100,100);}
+
+blockquote            {border-left: 10px solid #ccc;}
+
+blockquote:before     {color: #ccc;}
+
+blockquote p          {color: rgb(100,100,100);}
+
+
+#features-bkgd        {background-color: darkorange;}
+
+footer                {background: black;
+                       color: gray;}
+
+footer p              {color: white;}                       
+
+footer a:hover        {color: white;}   
+
+#contact img          {border: 2px solid black;}                    
+
+#contact img:hover    {border: solid 2px darkorange;}
+
+hr                    {border: 1px solid rgb(100,100,100);}
+
+.slicknav_menu        {background-color: gray;}
+
+/***************
+General
+*****************/
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+ul {
+  list-style:none;
+  padding-left:0;
+}
+
+h1 {
+  font-size: 1.3em;
+  font-weight: normal;
+  line-height: 1em;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.wrapper {
+  max-width: 950px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;  
+}
+
+/***************
+NAVIGATION
+*****************/
+
+nav {
+  text-align: center;
+  display: none;
+  padding: 10px 0;
+  margin: 15px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 0.5em 0.5em 0.5px;
+}
+
+#logo img  {
+  margin: 0;
+  max-width: 160px;
+}
+
+#logo {
+  text-align: center;
+  padding-top: 55px;
+}
+
+
+/*Mobile menu*/
+
+#menu {
+  display:none;
+}
+
+.slicknav_menu {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  margin: 0px;
+}
+.js .slicknav_menu {
+  display:block;
+}
+
+
+/************************
+       Main Page
+*************************/
+
+#coverpic {
+  margin-top: 0px;
+  background-image: url("../img/rainy-day.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  padding: 90px;
+}
+
+#coverpic h1 {
+  font-size: 1.9em;
+  text-align: center;
+}
+
+
+#workflow {
+  display: inline-block;
+  float: left;
+  height: 300px;
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+}
+
+#workflow a {
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 7px 10px 7px 10px;
+  border-radius: 5px;
+}
+
+#workflowImage {
+  float: right;
+  display: none;
+}
+
+#intro {
+  height: 200px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 750px;
+  text-align: center;
+  font-size: 1.1em;
+  padding: 25px;
+}
+
+#clientquote {
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  margin: 15px;
+  margin-bottom: 0;
+}
+
+
+blockquote {
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+
+blockquote:before {
+  content: open-quote;
+  font-size: 5em;
+  line-height: 0.2em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+  font-size: 1.3em;
+}
+
+/* Features grid */
+
+#features {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#feature-grid {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#feature-grid li {
+  margin-bottom: 35px;
+  width: 95%;
+  text-align: left;
+  font-size: 0.9em;
+}
+
+#feature-grid li img {
+  float: left;
+  width: 55px;
+  height: 65px;
+  margin: 0 10px 10px 0px;
+}
+
+
+/***************
+Footer
+*****************/
+
+#footer-grid {
+  text-align: left;
+  line-height: 1.6em;
+  padding: 30px 30px 0 30px;
+  margin: 0;
+  width: 100%;
+}
+
+#footer-grid > .col {
+  width: 100%;
+  float: left;
+  margin-bottom: 35px;
+}
+
+#footer-grid > .col li {
+  margin-bottom: 10px;
+}
+
+
+#contact {
+  text-align: center;
+}
+
+#contact img {
+  max-width: 50px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+footer p {
+  margin: 0px;
+  padding: 10px;
+  font-size: 0.75em;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WebGurus |  We bring the internet to life</title>
+    <link rel="stylesheet"  href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/slicknav.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+       <div id="mobilemenu"></div>
+       <div id="logo">
+         <a href="index.html">
+         <img src="img/Crocs_logo.png">
+         </a>
+       </div>
+       <nav>
+        <ul id="menu">
+          <li>
+            <a href="index.html"  class="selected" alt="">
+            Portfolio</a></li>
+          
+          <li>
+            <a href="#" alt="">
+            About</a></li>
+         
+          <li>
+            <a href="#" alt="">
+            Contact</a>
+          </li>
+          <li>
+            <a href="#" alt="">
+            Other</a>
+          </li>
+          <li>
+            <a href="#" alt="">
+            Service</a>
+          </li>
+        </ul>
+       </nav>
+    </header>
+    
+      <div id="coverpic">
+      <h1>We bring the internet to life.</h1>
+        </div>
+    
+
+    <div id="wrapper">
+      <section>
+        <div>
+          <h1>Features</h1>
+          <h2>Rapid development of step-based animated applications</h2>
+        </div>
+        <ul id="features">
+          <li>
+            <img src="img/feature__cross-browser.svg" alt="">
+            
+              <h1>Cross Browser Support</h1>
+              <h2>Tested in major desktop, tablet, and mobile browsers and fully featured in Firefox, Chrome, Safari, Opera, and Internet Explorer 10+. With support for Internet Explorer 8 & 9 via a fallback theme; a traditional side-to-side slider. </h2>
+            
+          </li>
+          
+          <li>
+            <img src="img/feature__tools.svg" alt="">
+            
+              <h1>Customizable Options + API</h1>
+              <h2>Over 30 options allow for complete control over how your application behaves. Customizable features include autoplay, preloader, touch support, hashtags, custom key events, callbacks, and more. All carefully documented for ease of use.</h2>
+            
+          </li>
+          
+          <li>
+            <img src="img/feature__responsive.svg" alt="">
+            
+              <h1>Responsive & Smooth</h1>
+              <h2>Use media queries and your favourite CSS features to make responsive applications for desktop, tablet, mobile, and other devices. This comes with the benefit of hardware acceleration and the potential to reach a silky smooth 60 frames per second, even on mobile devices. </h2>
+            
+          </li>
+          <li>
+            <img src="img/feature__themes.svg" alt="">
+            
+              <h1>Ready to Go Themes</h1>
+              <h2>Quickly add one of our ready-made themes to your web page and easily modify using just HTML and CSS. Visit the Theme Store for a growing collection of stylish WebGuru themes. </h2>
+            
+          </li>        
+        </ul>
+      
+      </section>
+      
+      <footer>
+        <a href="http://twitter.com/"><img src="img/twitter-wrap.png" alt="Twitter logo" class="social-icon"></a>
+        <a href="http://facebook.com"><img src="img/facebook-wrap.png" alt="Facebook logo" class="social-icon"></a>
+        
+        <p>&copy; 2015 Greg Adams</p>
+      
+      
+      </footer>
+    </div>
+  </body>
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="js/jquery.slicknav.js"></script>
+  <script src="js/main.js"></script>
+</html>
+
+
+
+
+
+
+
+
